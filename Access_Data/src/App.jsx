@@ -1,6 +1,6 @@
 import './App.css'
-import ControlleField from './Components/ControlleField/ControlleField'
-// import UncontrolleField from './Components/UncontrolleField/UncontrolleField'
+// import ControlleField from './Components/ControlleField/ControlleField'
+import UncontrolleField from './Components/UncontrolleField/UncontrolleField'
 // import FormAction from './Components/FormAction/FormAction'
 // import SimpleForm from './Components/SimpleForm/SimpleForm'
 
@@ -14,8 +14,8 @@ function App() {
         </div>
       {/* <SimpleForm></SimpleForm> */}
       {/* <FormAction></FormAction> */}
-      <ControlleField></ControlleField>
-      {/* <UncontrolleField></UncontrolleField> */}
+      {/* <ControlleField></ControlleField> */}
+      <UncontrolleField></UncontrolleField>
       </section>
     </>
   )
