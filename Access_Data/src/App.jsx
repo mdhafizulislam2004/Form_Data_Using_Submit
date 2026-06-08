@@ -1,5 +1,6 @@
 import './App.css'
-import FormAction from './Components/FormAction/FormAction'
+import ControlleField from './Components/ControlleField/ControlleField'
+// import FormAction from './Components/FormAction/FormAction'
 // import SimpleForm from './Components/SimpleForm/SimpleForm'
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
           <h1>Explore React Form</h1>
         </div>
       {/* <SimpleForm></SimpleForm> */}
-      <FormAction></FormAction>
+      {/* <FormAction></FormAction> */}
+      <ControlleField></ControlleField>
       </section>
     </>
   )
