@@ -11,7 +11,7 @@ const ControlleField = () => {
         // console.log("submited");
 
         if(password.length<6){
-            toast.error("Must 6 Charactors")
+            toast.error("Must 6 Charactors") // jodi Ai Jaigai TostiFay Add Na Kori Tahole SetError Hobe
         }else{
             setError("")
             toast.success("Submmited")
