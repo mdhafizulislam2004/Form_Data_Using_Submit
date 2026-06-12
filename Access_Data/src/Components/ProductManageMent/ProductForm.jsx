@@ -12,7 +12,7 @@ const ProductForm = ({hendalerProducts}) => {
         const price=e.target.price.value
         const quantity=e.target.quantity.value
 
-        
+
 
         // Joto Gulo Error Section Ase Oi Gula Te Jodi Tostify Add Na Kora Hoy Tahole SetError Bosbe 
         if(name.length===0){
@@ -29,8 +29,6 @@ const ProductForm = ({hendalerProducts}) => {
             setError("")
             toast.success("Items Add Success")
         }
-
-
 
         const hendaler = {
             name,
