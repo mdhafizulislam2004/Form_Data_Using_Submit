@@ -1,5 +1,6 @@
 import Aunt from "./Aunt";
 import Dad from "./Dad";
+import Friend from "./Friend";
 import Uncle from "./Uncle";
 
 const Grandpa = () => {
@@ -10,6 +11,7 @@ const Grandpa = () => {
                 <Dad></Dad>
                 <Uncle></Uncle>
                 <Aunt></Aunt>
+                <Friend></Friend>
             </section>
         </div>
     );
